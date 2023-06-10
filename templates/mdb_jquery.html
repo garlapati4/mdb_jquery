@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device.width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/mdb.css' %}">
+</head>
+<body>
+    <center>
+        <h1>mdb_jquery</h1>
+        <button type="button" class="btn btn-primary">Primary</button>
+    </center>
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/popper.js' %}"></script>
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+    <script src="{% static 'js/mdb.js' %}"></script>
+    <div class="card" style="width: 18rem;">
+        <img src="{% static 'images/sun.jpg' %}" class="card-img-top" alt="Sunset Over the Sea"/>
+        <div class="card-body">
+          <p class="card-text">Sunset, also known as sundown, is the daily disappearance of the Sun below the horizon due to Earth's rotation. As viewed from everywhere on Earth, the equinox Sun sets due west at the moment of both the spring and autumn equinoxes.</p>
+        </div>
+      </div>
+
+</body>
+</html>
